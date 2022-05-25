@@ -1,0 +1,7 @@
+project: rust-minidump
+target: parse
+
+tests:
+  - file://testdata
+cmds:
+  - cmd: /parse
